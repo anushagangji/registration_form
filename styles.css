@@ -1,5 +1,9 @@
 body{
     display: -moz-box;
+    font-style: italic;
+   
+
+
     background-image: url(sky.jpg);
     height: 100vh;
     background-size: cover;
