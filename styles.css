@@ -1,6 +1,8 @@
 body{
     display: -moz-box;
     font-style: italic;
+    border: 3px solid white;
+    border-block-start-color: white;
    
 
 
