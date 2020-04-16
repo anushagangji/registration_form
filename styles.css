@@ -1,0 +1,19 @@
+body{
+    display: -moz-box;
+    background-image: url(sky.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+
+    width: 360px;
+    padding: 30px;
+
+    z-index: 1;
+    max-width: 360px;
+    margin: 10 auto 100px;
+    line-height: 1.5;
+    font-style: initial;
+    font-size: medium;
+
+}
