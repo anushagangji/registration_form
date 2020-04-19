@@ -1,9 +1,7 @@
 body{
-    
     font-style: normal;
     border: 3px solid white;
-   background-image: url(sky.jpg);
-
+    background-image: url(images/sky.jpg);
     background-size: cover;
     background-position: center;
     width: 360px;
@@ -14,22 +12,23 @@ body{
     line-height: 1.5;
     font-style: initial;
     font-size: medium;
-    
-}
+ }
 
 label
 {
-
     margin-bottom: 10px;
 }
+
 button
 {
     margin-bottom: 10px;
 }
+
 h1
 {
  color:white;
 }
+
 #technologies
 {
     margin-bottom: 10px;
