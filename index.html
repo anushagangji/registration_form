@@ -1,41 +1,72 @@
 <html>   
-    <head>    <h1 style="text-align: center;" >REGISTRATION_FORM</h1>
+    <head>    
 <link rel="stylesheet" href="styles.css">
 </head>
 <body style="text-align: center;">
-    
-            First_name<br/>
-            <input type="text"><br/>
-            Last_name<br/>
-            <input type="text" ><br/>
-            Email<br/>
-            <input type="email" ><br/>
-            Phone_number<br/> 
-            <input type="number" ><br/>
-            Address<br/>
-            <input type="text"><br/>
-            <text>Gender</text><br/>
-            <input type="radio" name="gender" value="male">male
-            <input type="radio" name="gender" value="female">female
-            <input type="radio" name="gender" value="other">other<br/>
-            DOB&nbsp;
-            <input type=",br/date" name="DOB"><br/>
-            Qualification&nbsp;<select name="Qualification">
+    <h1 >REGISTRATION_FORM</h1>
+
+        <div>
+            <label for=first_name>First_name</label>
+            </br>
+            <input type="text" id=first_name>
+        </div>
+
+        <div>
+            <label for=last_name>Last_name</label><br/>
+            <input type="text" id=last_name>
+        </div>
+
+        <div>
+            <label for=email>Email</label><br/>
+            <input type="email" id=email>
+        </div>
+
+        <div>
+            <label for=phone_number> Phone_number</label><br/> 
+            <input type="number" id=phone_number >
+        </div>
+
+        <div>    
+            <label for="address">Address</label><br/>
+            <input type="text" id=address>
+        </div>
+
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" id="gender" value="male">male
+            <input type="radio" id="gender" value="female">female
+            <input type="radio" id="gender" value="other">other<br/>
+        </div>
+
+        <div>    
+            <label for=dob>DOB</label><br/>
+            <input type="datetime-local" id=dob>
+        </div> 
+
+        <div>   
+            <label for=qualification>Qualification</label>
+            <select id=qualification>
                 <option value="value1">BE</option>
                 <option value="value2">Btech</option>
                 <option value="value3">BCA</option>
                 <option value="value4">OTHERS</option>
-            </select><br/>
-            <text>Technologies_known</text><br/>
-            <input type="checkbox" name="Technologies_known" value=c>C
-            <input type="checkbox" name="Technologies_known" value=java>Java
-            <input type="checkbox" name="Technologies_known" value=python>Python<br/>
-            <button type="submit">SUBMIT</button>
-            <button type="reset">RESET</button>
+            </select>
+        </div>
 
-            
-                    
-    
+        <div>
+            <label for=technologies>Technologies_known</label><br/>
+            <input type="checkbox" id="Technologies" value=c>C
+            <input type="checkbox" id="Technologies" value=java>Java
+            <input type="checkbox" id="Technologies" value=python>Python<br/>                 
+        </div>
+
+        <div>   
+             <button type="submit">SUBMIT</button>
+        </div>
+
+        <div>
+             <button type="reset">RESET</button>        
+        </div>   
        
     
 </body>

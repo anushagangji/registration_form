@@ -1,25 +1,36 @@
 body{
-    display: -moz-box;
-    font-style: italic;
+    
+    font-style: normal;
     border: 3px solid white;
-    border-block-start-color: white;
-   
+   background-image: url(sky.jpg);
 
-
-    background-image: url(sky.jpg);
-    height: 100vh;
     background-size: cover;
     background-position: center;
-
-
     width: 360px;
     padding: 30px;
-
     z-index: 1;
     max-width: 360px;
     margin: 10 auto 100px;
     line-height: 1.5;
     font-style: initial;
     font-size: medium;
+    
+}
 
+label
+{
+
+    margin-bottom: 10px;
+}
+button
+{
+    margin-bottom: 10px;
+}
+h1
+{
+ color:white;
+}
+#technologies
+{
+    margin-bottom: 10px;
 }
